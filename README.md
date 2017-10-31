@@ -4,6 +4,9 @@
 
 ## Usage:
 
+
+code:
+
 ```
 package main
 
@@ -25,4 +28,12 @@ func main(){
 		log.Println("正常退出")
 	}
 }
+```
+
+terminal test:
+
+```
+fy@xiaorui go-safe-exit (master)]$ go run example/run.go
+2017/10/31 17:18:22 recv signale:  interrupt
+2017/10/31 17:18:22 正常退出
 ```
