@@ -1,6 +1,7 @@
-package main
+package safe_exit
 
 import (
+	"log"
 	"os"
 	"os/signal"
 	"sync"
